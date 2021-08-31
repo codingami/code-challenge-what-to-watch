@@ -1,6 +1,7 @@
 
 import './App.css';
 import MovieCard from './Components/MovieCard';
+import Header from './Components/Header';
 import React from 'react';
 
 
@@ -10,6 +11,7 @@ function App() {
       <MovieCard>
         
       </MovieCard>
+      <Header/>
     </div>
   );
 }
